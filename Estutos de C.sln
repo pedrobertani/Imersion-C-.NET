@@ -3,6 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Valores Literais", "0 - Valores Literais", "{CE88F46E-50CA-4AF1-812A-1F375C19DF04}"
+	ProjectSection(SolutionItems) = preProject
+		Gravar literal boleano.cs = Gravar literal boleano.cs
+		Gravar literal decimal.cs = Gravar literal decimal.cs
+		Gravar literal int.cs = Gravar literal int.cs
+		Gravar um literal char.cs = Gravar um literal char.cs
+		Recapitulação.cs = Recapitulação.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Declarar Váriaveis", "1 - Declarar Váriaveis", "{69BC3E87-2474-4089-A65F-B50B1F6235E3}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
