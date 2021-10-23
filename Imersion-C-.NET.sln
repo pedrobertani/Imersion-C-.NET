@@ -24,7 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Declarar Váriaveis", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Variaveis Locais de tipo Implicito", "3 - Variaveis Locais de tipo Implicito", "{B983D329-DA05-4F0E-BE38-39C594A732E8}"
 	ProjectSection(SolutionItems) = preProject
-		Váriavel implicita.cs = Váriavel implicita.cs
+		3 - Resumo.cs = 3 - Resumo.cs
+		3.1 -Váriavel implicita.cs = 3.1 -Váriavel implicita.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Sequencia de escape", "4 - Sequencia de escape", "{5E9308A7-9A50-44CB-A8D8-1D1342083036}"
@@ -48,6 +49,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Interpolação", "6 - I
 		6 - Resumo.cs = 6 - Resumo.cs
 		6.1 - Interpolação de cadeia de caracteres.cs = 6.1 - Interpolação de cadeia de caracteres.cs
 		6.2 - Literais textuais e interpolação.cs = 6.2 - Literais textuais e interpolação.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Adição simples e conversão de dados implicita", "7 - Adição simples e conversão de dados implicita", "{ECEFCC52-A5D3-49CB-B74A-685221BEF3B6}"
+	ProjectSection(SolutionItems) = preProject
+		7 - Resumo.cs = 7 - Resumo.cs
+		7.1 - Adicionar dois valores númericos.cs = 7.1 - Adicionar dois valores númericos.cs
+		7.2 - Misturar tipos de dados para forçar as conversões de tipo implícitas.cs = 7.2 - Misturar tipos de dados para forçar as conversões de tipo implícitas.cs
 	EndProjectSection
 EndProject
 Global

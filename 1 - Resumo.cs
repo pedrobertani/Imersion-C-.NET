@@ -1,4 +1,9 @@
-﻿//Variaveis
+﻿//Todo este material é baseado nas documentações da Microsoft sobre como programar em C# e .NET
+
+//Boa leitura
+
+
+//Variaveis
 //String são para caracteres e alfanumericos não calculaveis . operador adicional " " aspas duplas
 //Char são para um unico caracter ou alfanumericos não calculaveis. operador adiicional ' ' aspas simples
 //Int são para valores númericos calculaveis, não necessitando de operador adicional.
