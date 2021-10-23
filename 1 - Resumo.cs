@@ -1,8 +1,9 @@
-﻿//resumo
+﻿//Variaveis
 //String são para caracteres e alfanumericos não calculaveis . operador adicional " " aspas duplas
 //Char são para um unico caracter ou alfanumericos não calculaveis. operador adiicional ' ' aspas simples
 //Int são para valores númericos calculaveis, não necessitando de operador adicional.
 //Decimal são para valores númericos com casas adicionais, necessitando apenas de um m entre as casas. Ex 10.5m
+//Boleano são valores lógicos, sendo verdadeiro ou falso, 1 ou 0.
 
 //Utilização
 //Supondo que crie um aplicativo que precise adicionar um número de telefone, o certo seria
