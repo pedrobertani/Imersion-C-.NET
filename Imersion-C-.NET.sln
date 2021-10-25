@@ -56,6 +56,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Adição simples e conv
 		7 - Resumo.cs = 7 - Resumo.cs
 		7.1 - Adicionar dois valores númericos.cs = 7.1 - Adicionar dois valores númericos.cs
 		7.2 - Misturar tipos de dados para forçar as conversões de tipo implícitas.cs = 7.2 - Misturar tipos de dados para forçar as conversões de tipo implícitas.cs
+		7.3 - Operações matemáticas.cs = 7.3 - Operações matemáticas.cs
 	EndProjectSection
 EndProject
 Global
