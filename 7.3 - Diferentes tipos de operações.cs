@@ -88,3 +88,5 @@ Console.WriteLine("Resto de divisão de 7 / 5: " + (6 % 5));
 //Saída
 //Resto de divisão de 200 / 5 : 0
 //Resto de divisão de 7 / 5: 1
+
+

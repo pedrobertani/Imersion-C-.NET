@@ -33,3 +33,11 @@
 //C# segue a mesma ordem que o acrônimo PEMDAS, exceto pelos exponentes.
 //Embora não haja um operador com exponente em C#, você pode usar o método System.Math.Pow()
 //que está disponível na Biblioteca de Classes .NET. 
+
+//Operadores como +=, -=, *=, ++ e -- são conhecidos como operadores de atribuição composta
+//porque compõem uma operação além de atribuir o resultado à variável.
+//O operador += é chamado especificamente de operador de atribuição de adição
+
+//Use operadores de atribuição compostos como +=, -=, *=, ++ e -- para executar uma operação matemática
+//como incremento ou decremento e, em seguida, atribua o resultado à variável original.
+//Operadores de incremento e decremento são executados de forma diferente quando o operador está antes ou depois do operando.
