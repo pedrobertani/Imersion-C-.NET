@@ -13,3 +13,12 @@
 //Ao chamar um método com estado, é necessário criar uma instância da classe e acessar o método no objeto.
 //Use o operador new para criar uma instância de uma classe.
 //Uma instância de uma classe é chamada de um objeto.
+
+//Os métodos podem não aceitar nenhum parâmetro ou aceitar vários deles, dependendo de como eles foram criados e implementados.
+//Ao passar vários parâmetros de entrada, separe-os com um símbolo ,.
+//Os métodos poderão retornar um valor quando concluírem sua tarefa ou não retornar nada (nulo).
+//Os métodos sobrecarregados dão suporte a várias implementações do método
+//cada uma com uma assinatura de método exclusiva (o número de parâmetros de entrada e o tipo de dados de cada parâmetro de entrada).
+//O IntelliSense pode ajudar a escrever código mais rapidamente.
+//Ele fornece uma referência rápida a métodos, seus valores retornados, suas versões sobrecarregadas e os tipos de parâmetros de entrada.
+//docs.microsoft.com é a "fonte da verdade" quando você deseja saber como os métodos na Biblioteca de Classes do .NET funcionam.
