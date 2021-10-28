@@ -70,6 +70,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 - Biblioteca .NET", "8 - 
 		8.4 - Instância de classe.cs = 8.4 - Instância de classe.cs
 		8.5 - Como determinar se necessário instância de classe.cs = 8.5 - Como determinar se necessário instância de classe.cs
 		8.6 -  Valores retornados e parametros de entrada.cs = 8.6 -  Valores retornados e parametros de entrada.cs
+		8.7 - Entendendo Métodos.cs = 8.7 - Entendendo Métodos.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 - Lógica de Decisão", "9 - Lógica de Decisão", "{8CA99C0D-A9F0-4F51-9B4C-C4DF366E5046}"
+	ProjectSection(SolutionItems) = preProject
+		9 - Resumo.cs = 9 - Resumo.cs
+		9.1 - Lógica de Decisão if - else.cs = 9.1 - Lógica de Decisão if - else.cs
+		9.3 - Expressões Booliana.cs = 9.3 - Expressões Booliana.cs
+		9.4 - Bloco de código.cs = 9.4 - Bloco de código.cs
+		9.5 - Criar um jogo com lógica de decisões.cs = 9.5 - Criar um jogo com lógica de decisões.cs
 	EndProjectSection
 EndProject
 Global

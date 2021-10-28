@@ -214,3 +214,8 @@ if (total < 15)
 //Você rolou dados iguais! ganhou +2 pontos de bonus!!
 //Você rolou 3 dados iguais! ganhou 6 pontos de bonus!
 //Você ganhou!
+
+//Problemas na lógica e oportunidades para aprimorar o código
+//Embora este seja um bom começo e tenhamos aprendido muito sobre a instrução if
+//expressões boolianas, blocos de código, operadores lógicos OR e AND e assim por diante
+//há muito que pode ser melhorado. Faremos isso na próxima unidade.
