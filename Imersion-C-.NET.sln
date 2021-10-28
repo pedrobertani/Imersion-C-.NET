@@ -64,7 +64,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 - Biblioteca .NET", "8 - Biblioteca .NET", "{E43FBAEA-03B5-45C4-B164-CC1E991E3E20}"
 	ProjectSection(SolutionItems) = preProject
 		8 - Resumo.cs = 8 - Resumo.cs
-		8.1 - Chamar bibliotecas .NET.cs = 8.1 - Chamar bibliotecas .NET.cs
+		8.1 - Como chamar metodos na classe.cs = 8.1 - Como chamar metodos na classe.cs
+		8.2 - Tipos de métodos na Biblioteca de Classes do .NET.cs = 8.2 - Tipos de métodos na Biblioteca de Classes do .NET.cs
+		8.3 - Metodo com estado vs sem estado .cs = 8.3 - Metodo com estado vs sem estado .cs
+		8.4 - Instância de classe.cs = 8.4 - Instância de classe.cs
+		8.5 - Como determinar se necessário instância de classe.cs = 8.5 - Como determinar se necessário instância de classe.cs
+		8.6 -  Valores retornados e parametros de entrada.cs = 8.6 -  Valores retornados e parametros de entrada.cs
 	EndProjectSection
 EndProject
 Global
