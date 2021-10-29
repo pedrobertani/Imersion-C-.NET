@@ -8,3 +8,4 @@
 //Resumindo, criaremos códigos, onde podemos fazer decisões, positivas ou negativas.
 //2 é um número par? caso verdadeiro retorne ao usuario, verdadeiro, caso contrario retorne falso.
 //Em tese é isso.
+

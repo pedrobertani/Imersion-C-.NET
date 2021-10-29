@@ -219,3 +219,150 @@ if (total < 15)
 //Embora este seja um bom começo e tenhamos aprendido muito sobre a instrução if
 //expressões boolianas, blocos de código, operadores lógicos OR e AND e assim por diante
 //há muito que pode ser melhorado. Faremos isso na próxima unidade.
+
+//-----------------------------------------------------------------------------------------------------------------------------------
+
+//Jogo da microsoft - Etapa 5
+
+//Else
+
+//Vamos utilizar o else para quando a decisão não for verdadeira.
+//E o nosso código ficara : 
+
+Random dice = new Random();
+
+int rolar1 = dice.Next(1, 7);
+int rolar2 = dice.Next(1, 7);
+int rolar3 = dice.Next(1, 7);
+
+int total = rolar1 + rolar2 + rolar3;
+
+Console.WriteLine($"Valores dos dados: {rolar1} + {rolar2} + {rolar3} = {total}");
+
+if ((rolar1 == rolar2) || (rolar2 == rolar3) || (rolar1 == rolar3))
+{
+    Console.WriteLine("Você rolou dados iguais! ganhou +2 pontos de bonus!!");
+    total += 2;
+}
+
+if ((rolar1 == rolar2) && (rolar2 == rolar3))
+{
+    Console.WriteLine("Você rolou 3 dados iguais! ganhou 6 pontos de bonus!");
+    total += 6;
+}
+
+if (total >= 15)
+{
+    Console.WriteLine("Você ganhou!");
+}
+
+else
+{
+    Console.WriteLine("Desculpe, você perdeu.");
+}
+
+//Aqui, se total >= 15 for falso, o bloco de código a seguir da palavra-chave else será executado.
+//Como essas duas opções são opostos relacionados, este é um cenário perfeito para a palavra-chave else.
+
+//-----------------------------------------------------------------------------------------------------------------------------------
+
+//Jogo da microsoft - Etapa 6
+
+//Aninhamento
+
+//O aninhamento nos permite colocar colocar blocos de código dentro de blocos de código.
+//Neste caso, vamos aninhar uma instrução
+//if-else (a verificação de resultados triplicados)
+//dentro de outra instrução if (a verificação de resultados duplicados)
+//para impedir que ambos aconteçam.
+
+Random dice = new Random();
+
+int rolar1 = dice.Next(1, 7);
+int rolar2 = dice.Next(1, 7);
+int rolar3 = dice.Next(1, 7);
+
+int total = rolar1 + rolar2 + rolar3;
+
+Console.WriteLine($"Valores dos dados: {rolar1} + {rolar2} + {rolar3} = {total}");
+
+if ((rolar1 == rolar2) || (rolar2 == rolar3) || (rolar1 == rolar3))
+{
+    if ((rolar1 == rolar2) && (rolar2 == rolar3))
+    {
+        Console.WriteLine("Você rolou 3 dados iguais! ganhou 6 pontos de bonus!");
+        total += 6;
+    }
+    else
+    {
+        Console.WriteLine("Você rolou dados iguais! ganhou +2 pontos de bonus!!");
+        total += 2;
+    }
+}
+
+if (total >= 15)
+{
+    Console.WriteLine("Você ganhou!");
+}
+
+else
+{
+    Console.WriteLine("Desculpe, você perdeu.");
+}
+
+
+//-----------------------------------------------------------------------------------------------------------------------------------
+
+//Jogo da microsoft - Etapa 7
+
+//else if
+
+
+//Para tornar o jogo mais divertido, em vez de vencer/perder, vamos conceder prêmios fictícios para cada pontuação.
+//Ofereceremos quatro prêmios. O jogador deve ganhar apenas um prêmio.
+
+//Se a pontuação do jogador for maior ou igual a 16, ele ganhará um carro novo.
+//Se a pontuação do jogador for maior ou igual a 10, ele ganhará um laptop novo.
+//Se a pontuação do jogador for exatamente 7, ele ganhará uma viagem.
+//Caso contrário, ganhará um gatinho.
+
+
+Random dice = new Random();
+
+int rolar1 = dice.Next(1, 7);
+int rolar2 = dice.Next(1, 7);
+int rolar3 = dice.Next(1, 7);
+
+int total = rolar1 + rolar2 + rolar3;
+
+Console.WriteLine($"Valores dos dados: {rolar1} + {rolar2} + {rolar3} = {total}");
+
+if ((rolar1 == rolar2) || (rolar2 == rolar3) || (rolar1 == rolar3))
+{
+    if ((rolar1 == rolar2) && (rolar2 == rolar3))
+    {
+        Console.WriteLine("Você rolou 3 dados iguais! ganhou 6 pontos de bonus!");
+        total += 6;
+    }
+    else
+    {
+        Console.WriteLine("Você rolou dados iguais! ganhou +2 pontos de bonus!!");
+        total += 2;
+    }
+}
+
+if (total >= 16)
+{
+    Console.WriteLine($"Parabéns, você tirou {total}, você acaba de ganhar um carro!");
+}
+else if (total >= 10)
+{
+    Console.WriteLine($"Parabéns, você tirou {total}, você acaba de ganhar um notebook!");
+}
+else if (total == 7)
+{
+    Console.WriteLine($"Parabéns, você tirou {total}, você acaba de ganhar uma viagem!");
+}
+else
+{
+    Console.WriteLine($"Parabéns, você tirou {total}, você acaba de ganhar um gatinho!<3");
