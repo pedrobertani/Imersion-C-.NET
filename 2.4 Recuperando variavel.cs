@@ -1,5 +1,9 @@
-﻿//Para recuperar um valor de uma variável, basta usar o nome da variável.
-//Este exemplo definirá o valor de uma variável e, em seguida, recuperará esse valor e o imprimirá no console.
+﻿//Recuperand variáveis
+
+/*
+Para recuperar um valor de uma variável, basta usar o nome da variável.
+Este exemplo definirá o valor de uma variável e, em seguida, recuperará esse valor e o imprimirá no console.
+*/
 
 //atribuindo valor na variavel
 string firstName;
